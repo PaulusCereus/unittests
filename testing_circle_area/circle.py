@@ -7,7 +7,7 @@ def circle_area(radius):
         raise ValueError("Radius must be non-negative")
     return pi * radius ** 2
 
-check_list = [1, 20, 37, -5, 2+3j, [1, 2,], True, 'string']
+# check_list = [1, 20, 37, -5, 2+3j, [1, 2,], True, 'string']
 
-for i in check_list:
-    print(f'Площадь окружности с радиусом {i} равна {circle_area(i)}')
+# for i in check_list:
+#     print(f'Площадь окружности с радиусом {i} равна {circle_area(i)}')
